@@ -4,4 +4,4 @@ WORKDIR /src
 RUN pip install --no-cache-dir Flask
 COPY server.py /src/
 USER www-data
-CMD [ "python", "/srv/server.py" ]
+CMD [ "python", "/src/server.py" ]
